@@ -22,10 +22,7 @@
 			<c:forEach var="film" items="${films}">
 				<tr>
 		 			<td>
-						<spring:url var="showUrl" value="films/{id}">
-							<spring:param name="id" value="${film.id}" />
-						</spring:url>
-						<a href="${showUrl}">${film.title}</a>
+						<a href="${film.getLink('self').getHref()}">${film.title}</a>
 					</td>
 					<td style="text-align: center">
 						${film.votes}

@@ -7,6 +7,18 @@ public class FilmResource extends ResourceSupport {
     public int votes;
     public float rating;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public int getVotes() {
+        return votes;
+    }
+
+    public float getRating() {
+        return rating;
+    }
+
     public void setFilm(Film film) {
         title = film.getTitle();
         votes = film.getVotes();

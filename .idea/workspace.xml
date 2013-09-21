@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c47b82c8-b871-44b1-9827-286371425578" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rewardsonline/films/Film.java" afterPath="$PROJECT_DIR$/src/main/java/rewardsonline/films/Film.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java" afterPath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" afterPath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" />
     </list>
@@ -46,19 +46,19 @@
     <file path="/AccountManagerTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379761715554" ignored="false" />
     <file path="/Film.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379802593913" ignored="false" />
     <file path="/JpaFilmManager.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379794081717" ignored="false" />
-    <file path="/list.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379801790390" ignored="false" />
+    <file path="/list.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379805881121" ignored="false" />
     <file path="/show.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792916588" ignored="false" />
     <file path="/FilmManagerTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792832324" ignored="false" />
     <file path="/AccountTestConstants.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792732297" ignored="false" />
     <file path="/FilmsControllerTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792748416" ignored="false" />
     <file path="/StubFilmManager.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379766700396" ignored="false" />
-    <file path="/FilmsController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379802998937" ignored="false" />
+    <file path="/FilmsController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379805572935" ignored="false" />
     <file path="/FilmManager.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379794049987" ignored="false" />
     <file path="/global.properties" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379793316468" ignored="false" />
     <file path="/welcome.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379794949862" ignored="false" />
     <file path="/ApplicationController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379798661268" ignored="false" />
     <file path="/pom.xml" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379800952342" ignored="false" />
-    <file path="/FilmResourceAssembler.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379804693098" ignored="false" />
+    <file path="/FilmResourceAssembler.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379805871298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <file leaf-file-name="FilmsController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+            <state line="27" column="32" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="16" selection-start="771" selection-end="771" vertical-scroll-proportion="-16.285715">
+            <state line="30" column="60" selection-start="800" selection-end="800" vertical-scroll-proportion="0.68189234">
               <folding />
             </state>
           </provider>
@@ -173,16 +173,16 @@
       <file leaf-file-name="FilmResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+            <state line="9" column="30" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilmResourceAssembler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FilmResourceAssembler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResourceAssembler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="480" selection-end="480" vertical-scroll-proportion="0.38533542">
+            <state line="13" column="33" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,11 +235,11 @@
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/MvcConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/app-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/Film.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResourceAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" />
       </list>
     </option>
   </component>
@@ -1180,7 +1180,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="126" width="1249" height="1065" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286638" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1349,22 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="771" selection-end="771" vertical-scroll-proportion="-16.285715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE.jar!/org/springframework/hateoas/ResourceSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="6" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.235294">
@@ -1390,14 +1374,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+        <state line="9" column="30" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="32" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResourceAssembler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="480" selection-end="480" vertical-scroll-proportion="0.38533542">
+        <state line="13" column="33" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="60" selection-start="800" selection-end="800" vertical-scroll-proportion="0.68189234">
           <folding />
         </state>
       </provider>

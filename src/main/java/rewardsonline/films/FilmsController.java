@@ -24,8 +24,10 @@ public class FilmsController {
 
 	@RequestMapping(method = RequestMethod.GET,
 			produces = {"application/json"})
-	public @ResponseBody List<Film> findFilms(@RequestParam("title") String title) throws Exception {
-		return filmManager.findFilms(title);
+	public @ResponseBody List<FilmResource> findFilms(@RequestParam("title") String title) throws Exception {
+		List<Film> films = filmManager.findFilms(title);
+        FilmResourceAssembler assembler = new FilmResourceAssembler();
+        return assembler.toResources(films);
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET,
