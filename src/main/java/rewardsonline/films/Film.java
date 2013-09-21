@@ -1,6 +1,7 @@
 package rewardsonline.films;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
+import org.springframework.hateoas.ResourceSupport;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,11 +10,11 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "FILM")
-public class Film {
+public class Film extends ResourceSupport {
     @Id
     @JsonIgnore
     @Column(name = "ID")
-    private Integer id;
+    private Integer entityId;
 
     @Column(name = "TITLE")
     private String title;
@@ -33,12 +34,12 @@ public class Film {
         this.rating = rating;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getEntityId() {
+        return entityId;
     }
 
-    public void setId(Integer entityId) {
-        this.id = entityId;
+    public void setEntityId(Integer entityId) {
+        this.entityId = entityId;
     }
 
     public String getTitle() {

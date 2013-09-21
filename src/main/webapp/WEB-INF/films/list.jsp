@@ -22,8 +22,8 @@
 			<c:forEach var="film" items="${films}">
 				<tr>
 		 			<td>
-						<spring:url var="showUrl" value="films/{id}">
-							<spring:param name="id" value="${film.id}" />
+						<spring:url var="showUrl" value="films/{entityId}">
+							<spring:param name="entityId" value="${film.entityId}" />
 						</spring:url>
 						<a href="${showUrl}">${film.title}</a>
 					</td>
