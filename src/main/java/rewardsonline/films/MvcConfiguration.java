@@ -37,11 +37,6 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
 		configurer.enable();
 	}
 
-	@Override
-	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addViewController("/").setViewName("welcome");
-	}
-
 	@Bean(name="tilesViewResolver")
 	public ViewResolver getTilesViewResolver() {
 		TilesViewResolver resolver = new TilesViewResolver();
