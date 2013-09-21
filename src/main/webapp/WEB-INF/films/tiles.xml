@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	
+	<definition name="films/list" extends="standardLayout">
+		<put-attribute name="title" value="films.list.title" />
+		<put-attribute name="main" value="/WEB-INF/films/list.jsp" />
+		<put-attribute name="navigationTab" value="films" />
+	</definition>
+
+	<definition name="films/show" extends="standardLayout">
+		<put-attribute name="title" value="films.show.title" />
+		<put-attribute name="main" value="/WEB-INF/films/show.jsp" />
+		<put-attribute name="navigationTab" value="details" />
+	</definition>
+	
+</tiles-definitions>
