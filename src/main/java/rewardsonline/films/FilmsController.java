@@ -23,15 +23,17 @@ public class FilmsController {
 	// REST using Message Converters
 
 	@RequestMapping(method = RequestMethod.GET,
-			produces = {"application/json", "application/xml"})
+			produces = {"application/json"})
 	public @ResponseBody List<Film> findFilms(@RequestParam("title") String title) throws Exception {
 		return filmManager.findFilms(title);
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET,
-			produces = {"application/json", "application/xml"})
-	public @ResponseBody Film getFilmDetails(@PathVariable int id) throws Exception {
-		return filmManager.getFilm(id);
+			produces = {"application/json"})
+	public @ResponseBody FilmResource getFilmDetails(@PathVariable int id) throws Exception {
+        Film film = filmManager.getFilm(id);
+        FilmResourceAssembler assembler = new FilmResourceAssembler();
+        return assembler.toResource(film);
 	}
 
 	// HTML via Tiles views
