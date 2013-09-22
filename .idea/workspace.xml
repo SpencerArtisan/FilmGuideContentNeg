@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c47b82c8-b871-44b1-9827-286371425578" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java" afterPath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/rewardsonline/films/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/rewardsonline/films/RootController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/welcome.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" afterPath="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/app-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/show.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/show.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mvc-content-neg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +19,7 @@
     <file path="/app-config.xml" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379795990619" ignored="false" />
     <file path="/db-schema.sql" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379765889099" ignored="false" />
     <file path="/db-test-data.sql" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792704416" ignored="false" />
-    <file path="/fragment.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379804718696" ignored="false" />
+    <file path="/fragment.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379806652385" ignored="false" />
     <file path="/FilmRepositoryTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379665266551" ignored="false" />
     <file path="/FilmTestConstants.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379665063728" ignored="false" />
     <file path="/JpaFilmRepository.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379665394891" ignored="false" />
@@ -32,7 +37,7 @@
     <file path="/index.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379697617577" ignored="false" />
     <file path="/MyStepdefs.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379669725310" ignored="false" />
     <file path="/BrowserDriver.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379669574820" ignored="false" />
-    <file path="/a.dummy" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379800561429" ignored="false" />
+    <file path="/a.dummy" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379808392414" ignored="false" />
     <file path="/ApplicationResource.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379697845427" ignored="false" />
     <file path="/mvc-config.xml" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379700391961" ignored="false" />
     <file path="/mvc-java-config.xml" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379785962688" ignored="false" />
@@ -46,19 +51,24 @@
     <file path="/AccountManagerTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379761715554" ignored="false" />
     <file path="/Film.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379802593913" ignored="false" />
     <file path="/JpaFilmManager.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379794081717" ignored="false" />
-    <file path="/list.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379805881121" ignored="false" />
+    <file path="/list.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379845001253" ignored="false" />
     <file path="/show.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792916588" ignored="false" />
     <file path="/FilmManagerTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792832324" ignored="false" />
     <file path="/AccountTestConstants.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792732297" ignored="false" />
     <file path="/FilmsControllerTests.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379792748416" ignored="false" />
     <file path="/StubFilmManager.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379766700396" ignored="false" />
-    <file path="/FilmsController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379805572935" ignored="false" />
+    <file path="/FilmsController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379842728201" ignored="false" />
     <file path="/FilmManager.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379794049987" ignored="false" />
     <file path="/global.properties" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379793316468" ignored="false" />
     <file path="/welcome.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379794949862" ignored="false" />
     <file path="/ApplicationController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379798661268" ignored="false" />
     <file path="/pom.xml" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379800952342" ignored="false" />
     <file path="/FilmResourceAssembler.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379805871298" ignored="false" />
+    <file path="/RootController.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379806709223" ignored="false" />
+    <file path="/standard.jsp" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379806948972" ignored="false" />
+    <file path="/tiles.xml" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379808440568" ignored="false" />
+    <file path="/RootResource.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379844862496" ignored="false" />
+    <file path="/RootResourceTest.java" changelist="c47b82c8-b871-44b1-9827-286371425578" time="1379844465878" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +120,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/mvc/ControllerLinkBuilderFactory.java" line="113" class="org.springframework.hateoas.mvc.ControllerLinkBuilderFactory" package="org.springframework.hateoas.mvc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -119,10 +146,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FilmsController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java">
+      <file leaf-file-name="RootResourceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rewardsonline/films/RootResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="32" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+            <state line="21" column="44" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,39 +157,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/app-config.xml">
+      <file leaf-file-name="ResourceSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/ResourceSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="57" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.0">
+            <state line="113" column="16" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp">
+      <file leaf-file-name="RootResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/RootResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="60" selection-start="800" selection-end="800" vertical-scroll-proportion="0.68189234">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvcConfiguration.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/MvcConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="32" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Film.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/Film.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="500" selection-end="621" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,34 +180,61 @@
       <file leaf-file-name="FilmResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilmResourceAssembler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResourceAssembler.java">
+      <file leaf-file-name="Link.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+            <state line="36" column="13" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceSupport.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE.jar!/org/springframework/hateoas/ResourceSupport.class">
+      <file leaf-file-name="show.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/show.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.235294">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="34" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
+            <state line="7" column="5" selection-start="328" selection-end="328" vertical-scroll-proportion="0.21246007">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/root.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UriComponents.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/util/UriComponents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="0" selection-start="5394" selection-end="5394" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerLinkBuilderFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/mvc/ControllerLinkBuilderFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="0" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -224,21 +258,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/repository/JpaFilmManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/rewardsonline/films/StubFilmManager.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/show.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/repository/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/MvcConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/app-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/Film.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResourceAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/app-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/RootController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rewardsonline/films/RootResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rewardsonline/films/RootResource.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp" />
       </list>
     </option>
@@ -252,6 +286,56 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Spring MVC Content Negotiation Example" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Spring MVC Content Negotiation Example" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-webmvc:3.2.0.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Spring MVC Content Negotiation Example" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework.hateoas:spring-hateoas:0.8.0.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -279,8 +363,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="43" />
     <option name="y" value="126" />
-    <option name="width" value="1249" />
+    <option name="width" value="1574" />
     <option name="height" value="1065" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -317,6 +402,172 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mvc-content-neg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.2.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.2.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.2.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.2.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.2.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.2.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.2.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.2.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework.hateoas:spring-hateoas:0.8.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hateoas-0.8.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework.hateoas:spring-hateoas:0.8.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hateoas-0.8.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hateoas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework.hateoas:spring-hateoas:0.8.0.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hateoas-0.8.0.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hateoas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -378,6 +629,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc-content-neg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FilmGuideContentNeg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,36 +820,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="films" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc-content-neg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FilmGuideContentNeg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value=".settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -605,6 +856,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rewardsonline.films" />
       <recent name="rewardsonline.films.repository" />
       <recent name="com.springapp.mvc" />
     </key>
@@ -625,7 +877,7 @@
       <recent name="$PROJECT_DIR$/../FilmGuide/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Films2">
+  <component name="RunManager" selected="JUnit.RootResourceTest">
     <configuration default="false" name="Feature: findFilm" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -645,34 +897,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="FilmGuide" />
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccountManagerTests" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rewardsonline.films.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mvc-content-neg" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="rewardsonline.accounts" />
-      <option name="MAIN_CLASS_NAME" value="rewardsonline.accounts.AccountManagerTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -731,6 +955,66 @@
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RootResourceTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rewardsonline.films.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mvc-content-neg" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rewardsonline.films" />
+      <option name="MAIN_CLASS_NAME" value="rewardsonline.films.RootResourceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RootResourceTest.testFindFilmsLink" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rewardsonline.films.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mvc-content-neg" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rewardsonline.films" />
+      <option name="MAIN_CLASS_NAME" value="rewardsonline.films.RootResourceTest" />
+      <option name="METHOD_NAME" value="testFindFilmsLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1109,22 +1393,23 @@
         </option>
       </method>
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: findFilm" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountManagerTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FilmRepositoryTests" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.rewardsonline.films in mvc-content-neg" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
-      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.Films" />
-      <item index="6" class="java.lang.String" itemvalue="Tomcat Server.Films2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FilmRepositoryTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.rewardsonline.films in mvc-content-neg" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Films" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.Films2" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.RootResourceTest" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.RootResourceTest.testFindFilmsLink" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.rewardsonline.films in mvc-content-neg" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FilmRepositoryTests" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: findFilm" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: findFilm" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountManagerTests" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RootResourceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RootResourceTest.testFindFilmsLink" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.rewardsonline.films in mvc-content-neg" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FilmRepositoryTests" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: findFilm" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1179,7 +1464,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="126" width="1249" height="1065" extended-state="0" />
+    <frame x="43" y="126" width="1574" height="1065" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286638" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1188,7 +1473,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29545453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997934" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32533333" sideWeight="0.5005149" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1199,11 +1484,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20962635" sideWeight="0.7767442" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20942408" sideWeight="0.72830576" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32231405" sideWeight="0.49948508" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24189526" sideWeight="0.72830576" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2716942" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19044502" sideWeight="0.72830576" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2716942" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1525949" sideWeight="0.6706977" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1275,129 +1560,128 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE.jar!/org/springframework/hateoas/mvc/ControllerLinkBuilderFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="415" selection-end="415" vertical-scroll-proportion="-11.535714">
+        <state line="60" column="45" selection-start="2646" selection-end="2646" vertical-scroll-proportion="-8.076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/welcome.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/util/UriComponents.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="-8.821428">
+        <state line="162" column="0" selection-start="4456" selection-end="4456" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/standard.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/util/HierarchicalUriComponents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="544" selection-end="563" vertical-scroll-proportion="4.678571">
+        <state line="43" column="0" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/util/UriComponentsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="0" selection-start="8951" selection-end="8951" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#21293#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3326#3342#0" expanded="false" />
+            <element signature="e#18702#18710#0" expanded="false" />
+            <element signature="e#18969#18977#0" expanded="false" />
+            <element signature="e#19860#19882#0" expanded="false" />
+            <element signature="e#20146#20187#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="95" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/mvc/ControllerLinkBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="27" selection-start="4701" selection-end="4701" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/mvc/ControllerLinkBuilderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="0" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/util/UriComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="0" selection-start="5394" selection-end="5394" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="523" selection-end="523" vertical-scroll-proportion="-7.5">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/ApplicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/root.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/MvcConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rewardsonline/films/RootResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="32" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.0">
+        <state line="21" column="44" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app-config.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE-sources.jar!/org/springframework/hateoas/ResourceSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="57" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.0">
+        <state line="113" column="16" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/RootResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="34" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE.jar!/org/springframework/hateoas/ResourceSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.235294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="500" selection-end="621" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.8.0.RELEASE/spring-hateoas-0.8.0.RELEASE.jar!/org/springframework/hateoas/mvc/ResourceAssemblerSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="26" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.5194805">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rewardsonline/films/FilmResourceAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/films/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="60" selection-start="800" selection-end="800" vertical-scroll-proportion="0.68189234">
+        <state line="7" column="5" selection-start="328" selection-end="328" vertical-scroll-proportion="0.21246007">
           <folding />
         </state>
       </provider>

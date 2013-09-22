@@ -22,16 +22,14 @@ public class FilmsController {
 
 	// REST using Message Converters
 
-	@RequestMapping(method = RequestMethod.GET,
-			produces = {"application/json"})
-	public @ResponseBody List<FilmResource> findFilms(@RequestParam("title") String title) throws Exception {
+	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
+	public @ResponseBody List<FilmResource> findFilms(@RequestParam(value="title", defaultValue="w") String title) throws Exception {
 		List<Film> films = filmManager.findFilms(title);
         FilmResourceAssembler assembler = new FilmResourceAssembler();
         return assembler.toResources(films);
 	}
 
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET,
-			produces = {"application/json"})
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = {"application/json"})
 	public @ResponseBody FilmResource getFilmDetails(@PathVariable int id) throws Exception {
         Film film = filmManager.getFilm(id);
         FilmResourceAssembler assembler = new FilmResourceAssembler();

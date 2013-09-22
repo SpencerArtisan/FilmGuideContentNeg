@@ -4,10 +4,6 @@
 
 <h1>Film details</h1>
 
-<div>
-    <a href="#" onclick="addOrUpdateUrlParam('format', 'json')"><fmt:message key="films.list.command.asJson"/></a>
-</div>
-
 <div id="entityDetails">
 	<div id="filmDetails">
 		<ul>

@@ -14,16 +14,17 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/")
-public class ApplicationController {
+public class RootController {
 	// REST using Message Converters
 	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
-	public @ResponseBody String findFilms() throws Exception {
-		return null;
+	public @ResponseBody RootResource getRoot() throws Exception {
+		return new RootResource();
 	}
 
 	// HTML via Tiles views
     @RequestMapping(method = RequestMethod.GET)
     public String list(Model model) throws Exception {
-        return "welcome";
+        model.addAttribute(getRoot());
+        return "root";
     }
 }

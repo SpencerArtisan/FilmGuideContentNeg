@@ -10,9 +10,9 @@
 		<put-attribute name="footer" value="/WEB-INF/footer.jsp" />
 	</definition>
 	
-	<definition name="welcome" extends="standardLayout">
+	<definition name="root" extends="standardLayout">
 		<put-attribute name="title" value="welcome.title" />
-		<put-attribute name="main" value="/WEB-INF/welcome.jsp" />
+		<put-attribute name="main" value="/WEB-INF/root.jsp" />
 		<put-attribute name="navigationTab" value="home" />
 	</definition>
 

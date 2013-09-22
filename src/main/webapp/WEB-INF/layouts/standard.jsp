@@ -50,16 +50,21 @@
 					<ul class="clearfix">
 						<c:choose>
 							<c:when test="${navigationTab ne 'home'}">
-								<li><strong> <a href="<c:url value="/"/>"> <fmt:message
+								<li>
+                                    <strong> <a href="<c:url value="/"/>"> <fmt:message
 												key="navigate.home" />
-									</a>
-								</strong></li>
+									    </a>
+								    </strong>
+                                </li>
 							</c:when>
 							<c:otherwise>
 								<!-- Not needed -->
 							</c:otherwise>
 						</c:choose>
-					</ul>
+                        <li>
+                            <a href="#" onclick="addOrUpdateUrlParam('format', 'json')"><fmt:message key="films.list.command.asJson"/></a>
+                        </li>
+                    </ul>
 				</div>
 			</c:if>
 		</div>
