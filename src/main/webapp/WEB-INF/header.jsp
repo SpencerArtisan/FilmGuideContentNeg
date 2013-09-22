@@ -8,3 +8,9 @@
 		<div style="padding-top: 30px"></div>
 	</div>
 </div>
+
+<div>
+    <a href="#" onclick="addOrUpdateUrlParam('format', 'json')"><fmt:message key="films.list.command.asJson"/></a>
+</div>
+
+<hr/>

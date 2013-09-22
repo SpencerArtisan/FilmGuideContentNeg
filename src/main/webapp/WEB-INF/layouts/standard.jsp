@@ -61,9 +61,6 @@
 								<!-- Not needed -->
 							</c:otherwise>
 						</c:choose>
-                        <li>
-                            <a href="#" onclick="addOrUpdateUrlParam('format', 'json')"><fmt:message key="films.list.command.asJson"/></a>
-                        </li>
                     </ul>
 				</div>
 			</c:if>

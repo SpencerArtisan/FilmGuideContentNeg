@@ -2,11 +2,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-<div>
-	<a href="#" onclick="addOrUpdateUrlParam('format', 'json')"><fmt:message key="films.list.command.asJson"/></a>
-</div>
 
-<hr/>
 
 <div id="entityDetails">
 	<div id="films">
@@ -19,7 +15,7 @@
 					<th>Rating</th>
 				</tr>
 			</thead>
-			<c:forEach var="film" items="${films}">
+			<c:forEach var="film" items="${films.content}">
 				<tr>
 		 			<td>
 						<a href="${film.getLink('self').getHref()}">${film.title}</a>
