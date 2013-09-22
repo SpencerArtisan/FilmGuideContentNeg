@@ -23,4 +23,9 @@ public class RootResourceTest {
         String link = new RootResource().getLink("findFilms").getHref();
         assertEquals("http://localhost/films?title={title}", link);
     }
+
+    @Test
+    public void testTemplatedLink() throws Exception {
+        assertEquals("a", new RootResource().getLinks().toString());
+    }
 }

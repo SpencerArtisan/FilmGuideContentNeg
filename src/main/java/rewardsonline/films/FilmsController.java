@@ -3,6 +3,7 @@ package rewardsonline.films;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.ExposesResourceFor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
  * A controller handling requests for showing and updating an Film.
  */
 @Controller
+@ExposesResourceFor(Film.class)
 @RequestMapping("/films")
 public class FilmsController {
 	private FilmManager filmManager;
@@ -22,14 +24,13 @@ public class FilmsController {
 
 	// REST using Message Converters
 
-	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
-	public @ResponseBody List<FilmResource> findFilms(@RequestParam(value="title", defaultValue="w") String title) throws Exception {
+	@RequestMapping(method = RequestMethod.GET, produces = {"application/hal+json"})
+	public @ResponseBody FilmListResource findFilms(@RequestParam("title") String title) throws Exception {
 		List<Film> films = filmManager.findFilms(title);
-        FilmResourceAssembler assembler = new FilmResourceAssembler();
-        return assembler.toResources(films);
+        return new FilmListResource(films, title);
 	}
 
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = {"application/json"})
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = {"application/hal+json"})
 	public @ResponseBody FilmResource getFilmDetails(@PathVariable int id) throws Exception {
         Film film = filmManager.getFilm(id);
         FilmResourceAssembler assembler = new FilmResourceAssembler();

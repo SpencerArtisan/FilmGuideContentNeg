@@ -1,6 +1,7 @@
 package rewardsonline.films;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.ExposesResourceFor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -13,10 +14,11 @@ import java.util.List;
  * A controller handling requests for showing and updating an Film.
  */
 @Controller
+@ExposesResourceFor(RootResource.class)
 @RequestMapping("/")
 public class RootController {
 	// REST using Message Converters
-	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
+	@RequestMapping(method = RequestMethod.GET, produces = {"application/hal+json"})
 	public @ResponseBody RootResource getRoot() throws Exception {
 		return new RootResource();
 	}
